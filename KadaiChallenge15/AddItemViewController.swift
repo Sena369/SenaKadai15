@@ -9,7 +9,7 @@ import UIKit
 
 class AddItemViewController: UIViewController {
 
-    @IBOutlet weak var itemTextField: UITextField!
+    @IBOutlet private weak var itemTextField: UITextField!
 
     static func instantiate(didSave: @escaping (CheckItem) -> Void,
                             didCancel: @escaping  () -> Void) -> AddItemViewController {
@@ -20,7 +20,7 @@ class AddItemViewController: UIViewController {
 
         secondVC.didSave = didSave
         secondVC.didCancel = didCancel
-        
+
         return secondVC
     }
 

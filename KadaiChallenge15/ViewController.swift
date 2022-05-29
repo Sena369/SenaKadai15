@@ -19,7 +19,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(ItemTableViewCell.nib, forCellReuseIdentifier: ItemTableViewCell.identifier)
@@ -39,7 +38,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         let nav = UINavigationController(rootViewController: secondVC)
         present(nav, animated: true)
-
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
