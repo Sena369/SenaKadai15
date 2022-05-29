@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D34FDB232842E3940092E22A /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDB222842E3940092E22A /* AddItemViewController.swift */; };
+		D34FDB252842E3A50092E22A /* AddItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34FDB242842E3A50092E22A /* AddItem.storyboard */; };
+		D34FDB282842E3CD0092E22A /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDB262842E3CD0092E22A /* ItemTableViewCell.swift */; };
+		D34FDB292842E3CD0092E22A /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34FDB272842E3CD0092E22A /* ItemTableViewCell.xib */; };
+		D34FDB2B2842E3EA0092E22A /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDB2A2842E3EA0092E22A /* CheckItem.swift */; };
 		D35CD8662838D8800099C858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CD8652838D8800099C858 /* AppDelegate.swift */; };
 		D35CD8682838D8800099C858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CD8672838D8800099C858 /* SceneDelegate.swift */; };
 		D35CD86A2838D8800099C858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CD8692838D8800099C858 /* ViewController.swift */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		75CB2F6CDAAC617531B0CAD7 /* Pods-KadaiChallenge15.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge15.release.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge15/Pods-KadaiChallenge15.release.xcconfig"; sourceTree = "<group>"; };
 		CC666700954BEC39E95BD8EE /* Pods_KadaiChallenge15.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiChallenge15.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34FDB222842E3940092E22A /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		D34FDB242842E3A50092E22A /* AddItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddItem.storyboard; sourceTree = "<group>"; };
+		D34FDB262842E3CD0092E22A /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		D34FDB272842E3CD0092E22A /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		D34FDB2A2842E3EA0092E22A /* CheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
 		D35CD8622838D8800099C858 /* KadaiChallenge15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KadaiChallenge15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CD8652838D8800099C858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D35CD8672838D8800099C858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +66,6 @@
 				ED92E8987BF11403FCC3A629 /* Pods-KadaiChallenge15.debug.xcconfig */,
 				75CB2F6CDAAC617531B0CAD7 /* Pods-KadaiChallenge15.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +93,11 @@
 				D35CD8652838D8800099C858 /* AppDelegate.swift */,
 				D35CD8672838D8800099C858 /* SceneDelegate.swift */,
 				D35CD8692838D8800099C858 /* ViewController.swift */,
+				D34FDB222842E3940092E22A /* AddItemViewController.swift */,
+				D34FDB2A2842E3EA0092E22A /* CheckItem.swift */,
+				D34FDB262842E3CD0092E22A /* ItemTableViewCell.swift */,
+				D34FDB272842E3CD0092E22A /* ItemTableViewCell.xib */,
+				D34FDB242842E3A50092E22A /* AddItem.storyboard */,
 				D35CD86B2838D8800099C858 /* Main.storyboard */,
 				D35CD86E2838D8830099C858 /* Assets.xcassets */,
 				D35CD8702838D8830099C858 /* LaunchScreen.storyboard */,
@@ -103,6 +117,7 @@
 				D35CD85E2838D8800099C858 /* Sources */,
 				D35CD85F2838D8800099C858 /* Frameworks */,
 				D35CD8602838D8800099C858 /* Resources */,
+				D34FDB2C2842F03E0092E22A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35CD8722838D8830099C858 /* LaunchScreen.storyboard in Resources */,
+				D34FDB252842E3A50092E22A /* AddItem.storyboard in Resources */,
 				D35CD86F2838D8830099C858 /* Assets.xcassets in Resources */,
+				D34FDB292842E3CD0092E22A /* ItemTableViewCell.xib in Resources */,
 				D35CD86D2838D8800099C858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +199,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D34FDB2C2842F03E0092E22A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -190,6 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35CD86A2838D8800099C858 /* ViewController.swift in Sources */,
+				D34FDB2B2842E3EA0092E22A /* CheckItem.swift in Sources */,
+				D34FDB232842E3940092E22A /* AddItemViewController.swift in Sources */,
+				D34FDB282842E3CD0092E22A /* ItemTableViewCell.swift in Sources */,
 				D35CD8662838D8800099C858 /* AppDelegate.swift in Sources */,
 				D35CD8682838D8800099C858 /* SceneDelegate.swift in Sources */,
 			);
